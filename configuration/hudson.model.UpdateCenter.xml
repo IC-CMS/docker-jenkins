@@ -1,0 +1,14 @@
+<? version='1.0' encoding='UTF-8'?>
+<!-- Another way to override the update center -->
+<sites>
+<!--
+  <site>
+    <id>some update site</id>
+    <url>some url</url>
+  </site>
+-->
+  <site>
+    <id>default</id>
+    <url>https://updates.jenkins-ci.org/stable/update-center.json</url>
+  </site>
+</sites>
