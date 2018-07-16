@@ -4,18 +4,18 @@ node {
 
   stage ('Clone repository') {
 
-    echo 'Checking out Automation Test Project'
+    echo 'Checking out Docker-Jenkins Project'
 
     checkout scm
 }
 
   stage ('Build image') {
  
-    echo 'Beginning Build of Automation Test'
+    echo 'Beginning Build of Docker-Jenkins Project'
 
     app = docker.build("some project")
 
-    echo 'Successfully completed AutomationTest Build'
+    echo 'Successfully completed Docker-Jenkins Build'
   }
 
 }
