@@ -1,0 +1,14 @@
+*.swp
+password-file*
+secrets.tf
+*.hwm
+*.pwd
+*.pwi
+*.log
+*.pem
+.terraform
+id_rsa
+id_rsa.pub
+secrets
+terraform*
+docker_vault.env_file
