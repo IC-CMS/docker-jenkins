@@ -17,7 +17,7 @@ resource "jenkins_job" "jenkins-docker" {
    parameters = {
 	KeepDependencies 		= true,
 	GitLabConnection		= "${data.consul_keys.jenkins_build.var.git_url}",
-	CredentialsId			= "testuser_id_rsa",
+	CredentialsId			= "testuser1",
 	TriggerOnPush			= true,
 	TriggerOnMergeRequest		= true,
 	TriggerOpenMergeRequestOnPush	= "never"
