@@ -13,7 +13,7 @@ node {
  
     echo 'Beginning Build of Docker-Jenkins Project'
 
-    app = docker.build("IC-CMS/docker-jenkins")
+    app = docker.build("ic-cms/docker-jenkins")
 
     echo 'Successfully completed Docker-Jenkins Build'
   }
